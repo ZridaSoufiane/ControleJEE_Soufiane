@@ -1,0 +1,12 @@
+type car
+{
+    model :String
+    prix :Float
+
+}
+type Mutation{
+    saveCar(car:Car):CarDTO
+    deleteCar(id:ID):CarDTO
+}
+
+

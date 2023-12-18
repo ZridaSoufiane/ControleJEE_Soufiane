@@ -1,0 +1,9 @@
+type Car
+{
+    model:String
+    color :String
+    matricul :String
+    prix : Float
+}
+
+
